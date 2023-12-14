@@ -1,9 +1,10 @@
-Provider {
-	ec2_instance = "t2.micro"
+resource {
+	instance_type = "t2.micro"
 
 
-	tag = "Sabir"
-
+	tag = {
+	Name = "Sabir"
+ }
 
 }
 
